@@ -1,0 +1,25 @@
+package java_package;
+import java.util.Scanner;
+public class find_the_bigger_number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter the first number");
+		int num1=scn.nextInt();
+		System.out.println("enter the second number");
+		int num2=scn.nextInt();
+		System.out.println(num1);
+		System.out.println(num2);
+		if(num1>num2)
+		{
+			System.out.println("num1 is greater than num2");
+		}else
+		{
+			System.out.println("num2 is greater than num1");
+		
+	}
+
+}
+}
