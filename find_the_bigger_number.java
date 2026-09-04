@@ -4,22 +4,100 @@ public class find_the_bigger_number {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		Scanner scn=new Scanner(System.in);
-		System.out.println("enter the first number");
-		int num1=scn.nextInt();
-		System.out.println("enter the second number");
-		int num2=scn.nextInt();
-		System.out.println(num1);
-		System.out.println(num2);
-		if(num1>num2)
-		{
-			System.out.println("num1 is greater than num2");
-		}else
-		{
-			System.out.println("num2 is greater than num1");
+String st1="chemistri";
+	String st2="madam";
+//System.out.println(st1);
+		int len=st1.length();
+	//	System.out.println(len);
 		
-	}
+	//	int a=st1.indexOf('s');
+	//	System.out.println(a);
+System.out.println(st1.indexOf('i',5));
+ System.out.println(st2.lastIndexOf('m'));
+ 
+ String ans="computer";
+ System.out.println(ans.substring(1,4));
+		 
+		 String x="ANSWER";
+		 System.out.println(x.toLowerCase());
+		 
+		 String y="name";
+		 System.out.println(y.toUpperCase());
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+ 
+ 
+ 
+ 
 
 }
 }
